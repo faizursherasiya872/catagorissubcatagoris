@@ -33,11 +33,12 @@ class CategoryController extends Controller
                 return redirect()->back()->with('success', 'Category has been created successfully.');
             }
         }
+
         public function allCategories()
-    {
+        {
             $categories = Category::where('parent_id', null)->orderby('name', 'asc')->get();
             return view('all-category', compact('categories'));
-    }
+        }
 
         public function editCategory($id, Request $request)
             {

@@ -8,10 +8,10 @@
         <td>{{ $subcategory->parent->name }}</td>
         <td>
             <a href="{{ Route('editCategory', $subcategory->id) }}">
-                <button class="btn btn-sm btn-info">Edit</button>
+                <button class="btn btn-info">Edit</button>
             </a>
             <a href="{{ Route('deleteCategory', $subcategory->id) }}">
-                <button class="btn btn-sm btn-danger">Delete</button>
+                <button class="btn btn-danger">Delete</button>
             </a>
         </td>
     </tr>

@@ -1,10 +1,10 @@
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-<section class="content" style="padding:20px 30%;">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"><section class="content" style="padding:20px 30%;">
     <div class="row">
         <div class="col-md-12">
             <div class="box box-primary">
                 <div class="box-header with-border">
-                    <a href="/categories"><button class="btn btn-dark">Back</button></a>
+                    <a href="/categories"><button class="btn btn-dark">Home</button></a>
 
                     <h3 class="box-title">Create Category</h3>
                 </div>
